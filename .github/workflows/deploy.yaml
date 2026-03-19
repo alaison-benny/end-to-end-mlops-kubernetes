@@ -7,7 +7,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout Code
       uses: actions/checkout@v3
@@ -31,7 +31,8 @@ jobs:
         aws-region: us-east-1
 
     - name: Update Kubeconfig
-      run: aws eks update-kubeconfig --name sentiments-cluster --region us-east-1
+      # ഇവിടെയാണ് നമ്മൾ ക്ലസ്റ്റർ പേര് sentiments-eks എന്ന് മാറ്റിയത്
+      run: aws eks update-kubeconfig --name sentiments-eks --region us-east-1
 
     - name: Deploy to EKS using Helm
       run: |
