@@ -92,11 +92,12 @@ kubectl get ingress
 
 ### 1\. EKS Cluster Status
 
-![AWS EKS Cluster](./assets/eks.png)
+![Cluster Health](./assets/cluster.png)
 
 ### 2\. Kubernetes Cluster Health
 
-![Cluster Health](./assets/cluster.png)
+![AWS EKS Cluster](./assets/eks.png)
+
 
 ### 3\. Scaling-Workloads Details
 
