@@ -16,7 +16,7 @@ The focus is not just on the ML model, but on the **Platform Engineering** aspec
 ## 🏗 Architecture Diagram
 
 The following diagram illustrates the complete flow from the developer's workstation to the AWS Cloud environment, including traffic routing and monitoring stacks.
-
+![Architecture Diagram](./assets/architecture-diagram.png)
 -----
 
 ## 🛠 Technologies Used
